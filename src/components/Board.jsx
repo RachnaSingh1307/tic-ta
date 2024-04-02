@@ -4,7 +4,7 @@ const Board = ({ squares, handleSquareClick }) => {
   const renderSquare = position => {
     return (
       <Square
-        Value={squares[position]}
+        value={squares[position]}
         onClick={() => handleSquareClick(position)}
       />
     );
